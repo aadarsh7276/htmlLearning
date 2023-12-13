@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day5</title>
+    <script src="https://kit.fontawesome.com/bbd4a6be39.js" crossorigin="anonymous"></script>
+<style>
+    *{
+        margin: 0;padding: 0;box-sizing: border-box;
+    }
+    #screen{ 
+        width: 100%;
+        border: 1px solid red;
+        height: 600px;
+    }
+    #navbar{
+        width: 100%;
+        border: 1px solid rgb(19, 18, 18);
+        height:50px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #profile{
+        width: 5%;
+        border: 1px solid black;
+    }
+    #navbars{ 
+        width: 50%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    #search{
+        width: 30%;
+        border: 1px solid black;
+       
+    }
+    #cart{
+        width: 15%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    
+    #body{
+        width: 100%;
+        border: 1px solid black;
+        height: 400px;
+    }
+
+  </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div id="profile">profile</div>
+            <div id="navbars"><div>men</div>
+            <div>Women</div>
+            <div>kids</div>
+            <div>beauty</div>
+            <div>studio</div>
+            <div>Home & Living</div>
+        </div>
+            
+            <div id="search">
+                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                <input style="border: none;outline: none;"/>
+            </div>
+
+
+            <div id="cart">
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div >Profile</div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div>Wishlist</div>
+                </div>
+                <div><i class="fa-solid fa-bag-shopping"></i>
+                <div>bag</div>
+                </div>
+            </div>
+        </div>
+        <div id="body">body</div>
+        
+    </div>
+    
+</body>
+</html>
