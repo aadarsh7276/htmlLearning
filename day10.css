@@ -1,0 +1,32 @@
+#parent{
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+#parent>div{
+    width: 30%;
+    height: 31%;
+    border: 5px solid red;
+    display: flex;
+    
+}
+@media screen and (max-width:400px){
+    #parent>div{
+        border: 5px solid yellow;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        
+    }
+    #parent{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+    
+    
